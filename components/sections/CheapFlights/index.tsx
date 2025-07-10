@@ -99,7 +99,7 @@ const CheapFlights = () => {
 
       <div className="mt-4 relative h-[300px] group rounded-2xl overflow-hidden">
         <Image
-          className="rounded-2xl"
+          className="rounded-2xl object-cover"
           alt="Google Map"
           fill
           src="https://maps.googleapis.com/maps/api/staticmap?size=1058x312&key=AIzaSyCMXZJgNbwR_PUfsUlyKfRldqfOyQOEd_g&language=en-US&theme=light&markers=scale:2|anchor:center|icon:https://www.gstatic.com/flights/app/dot_pink_21.png|27.7103145%2C85.3221634&scale=2&markers=scale:2|anchor:center|icon:https://www.gstatic.com/flights/app/dot_blue_21.png|28.6139298%2C77.2088282|35.6764225%2C139.650027|22.3193039%2C114.1693611|-33.8690742%2C151.2096944&style=feature:all|element:labels|visibility:off&style=feature:poi|element:all|visibility:off&style=feature:road|element:all|visibility:off&style=feature:transit|element:all|visibility:off"

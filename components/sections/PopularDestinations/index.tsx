@@ -56,7 +56,7 @@ const PopularDestinations = () => {
                         fill
                         className="rounded-md object-cover"
                       />
-                      <div className="absolute bottom-2 left-2 font-bold text-white ">
+                      <div className="absolute bottom-2 left-2 font-bold text-white text-xs md:text-base ">
                         {dest.city}
                       </div>
                     </CardContent>
