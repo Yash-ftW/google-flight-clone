@@ -35,7 +35,7 @@ const destinations = [
 const PopularDestinations = () => {
   return (
     <Container className="max-w-full px-0">
-      <h3 className="text-xl font-semibold mb-4 px-4">
+      <h3 className="text-xl font-semibold mb-4">
         Popular destinations from Kathmandu
       </h3>
       <Carousel
