@@ -3,6 +3,7 @@ import Hero from "@/components/organisms/Hero";
 import Navbar from "@/components/organisms/Navbar";
 import CheapFlights from "@/components/sections/CheapFlights";
 import FAQ from "@/components/sections/FAQs";
+import PopularCheapFlights from "@/components/sections/PopularCheapFlights";
 import PopularDestinations from "@/components/sections/PopularDestinations";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <CheapFlights />
         <PopularDestinations />
         <FAQ />
+        <PopularCheapFlights />
       </Container>
     </div>
   );
