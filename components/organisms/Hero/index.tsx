@@ -24,15 +24,15 @@ const Hero = () => {
         </h1>
       </div>
 
-      <Card className="shadow-custom pb-8 pt-4 px-6 mt-4 max-w-5xl mx-auto relative">
+      <Card className="shadow-custom pb-8 pt-4 px-6 mt-4 max-w-5xl mx-auto relative border-0">
         <FlightSearchPanel />
         <FlightSchedule />
-        <div className="absolute  -bottom-5  left-1/2 -translate-x-1/2">
+        <div className="absolute -bottom-5  left-1/2 -translate-x-1/2">
           <Button
             variant={"outline"}
             icon={<Search className="text-white" />}
             iconPosition="start"
-            className="rounded-full bg-blue-500 text-white hover:bg-blue-600 hover:text-white"
+            className="rounded-full bg-blue-500 text-white hover:bg-blue-600 hover:text-white border-0"
           >
             Explore
           </Button>
