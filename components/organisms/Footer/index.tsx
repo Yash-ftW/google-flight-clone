@@ -35,7 +35,7 @@ const Footer = () => {
     <Container>
       <div className="line"></div>
       <div className="flex items-center justify-center mt-5 flex-col gap-6">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 flex-wrap justify-center md:justify-normal ">
           <Button
             variant="outline"
             className="text-blue-500 rounded-full hover:bg-gray-50 hover:text-blue-500"
@@ -70,7 +70,7 @@ const Footer = () => {
             Learn more
           </Link>
         </div>
-        <div className="flex items-center gap-5">
+        <div className="flex items-center gap-5 flex-wrap justify-center md:justify-normal">
           {links.map((link) => (
             <Link
               href={link.href}
