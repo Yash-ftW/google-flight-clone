@@ -38,36 +38,37 @@ const PopularDestinations = () => {
       <h3 className="text-xl font-semibold mb-4">
         Popular destinations from Kathmandu
       </h3>
-      <Carousel
-        opts={{
-          align: "start",
-        }}
-        className="w-full "
-      >
-        <CarouselContent>
-          {destinations.map((dest, index) => (
-            <CarouselItem key={index} className="basis-1/6">
-              <div className="p-1">
-                <Card>
-                  <CardContent className="flex aspect-square items-center justify-center p-6 relative">
-                    <Image
-                      src={dest.imgSrc}
-                      alt={dest.city}
-                      fill
-                      className="rounded-md object-cover"
-                    />
-                    <div className="absolute bottom-2 left-2 font-bold text-white ">
-                      {dest.city}
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
+      <div className="px-5">
+        <Carousel
+          opts={{
+            align: "start",
+          }}
+        >
+          <CarouselContent>
+            {destinations.map((dest, index) => (
+              <CarouselItem key={index} className="basis-1/3 md:basis-1/6">
+                <div className="p-1">
+                  <Card>
+                    <CardContent className="flex aspect-square items-center justify-center p-6 relative">
+                      <Image
+                        src={dest.imgSrc}
+                        alt={dest.city}
+                        fill
+                        className="rounded-md object-cover"
+                      />
+                      <div className="absolute bottom-2 left-2 font-bold text-white ">
+                        {dest.city}
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="" />
+          <CarouselNext />
+        </Carousel>
+      </div>
     </Container>
   );
 };

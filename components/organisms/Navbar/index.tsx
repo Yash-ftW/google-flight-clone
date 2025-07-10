@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className=" items-center gap-2 hidden md:flex">
           {navItems.map(({ label, icon }) => (
             <Button
               key={label}

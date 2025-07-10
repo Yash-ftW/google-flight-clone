@@ -13,7 +13,7 @@ import { CircleDot, LucideArrowRightLeft, MapPin } from "lucide-react";
 const FlightSchedule = () => {
   return (
     <div className="mt-5 grid grid-cols-5 gap-5">
-      <div className="flex items-center gap-2 col-span-3 relative">
+      <div className="flex items-center gap-2 col-span-5 md:col-span-3 relative ">
         <div className="absolute size-7 border bg-white left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 p-3 rounded-full">
           <LucideArrowRightLeft className="size-4 -translate-x-[40%] -translate-y-[40%]" />
         </div>
@@ -53,7 +53,7 @@ const FlightSchedule = () => {
           </SelectContent>
         </Select>
       </div>
-      <div className="col-span-2">
+      <div className="col-span-5 md:col-span-2">
         <FlightDatePicker />
       </div>
     </div>
