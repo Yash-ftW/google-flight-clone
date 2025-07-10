@@ -32,7 +32,7 @@ const Hero = () => {
             variant={"outline"}
             icon={<Search className="text-white" />}
             iconPosition="start"
-            className="rounded-full bg-blue-500 text-white"
+            className="rounded-full bg-blue-500 text-white hover:bg-blue-600 hover:text-white"
           >
             Explore
           </Button>
