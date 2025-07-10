@@ -46,7 +46,7 @@ const PopularDestinations = () => {
         >
           <CarouselContent>
             {destinations.map((dest, index) => (
-              <CarouselItem key={index} className="basis-1/3 md:basis-1/6">
+              <CarouselItem key={index} className=" md:basis-1/6">
                 <div className="p-1">
                   <Card>
                     <CardContent className="flex aspect-square items-center justify-center p-6 relative">
@@ -56,7 +56,7 @@ const PopularDestinations = () => {
                         fill
                         className="rounded-md object-cover"
                       />
-                      <div className="absolute bottom-2 left-2 font-bold text-white text-xs md:text-base ">
+                      <div className="absolute bottom-2 left-2 font-bold text-white  ">
                         {dest.city}
                       </div>
                     </CardContent>

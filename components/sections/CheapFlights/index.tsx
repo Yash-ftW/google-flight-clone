@@ -58,22 +58,26 @@ const FlightCard = ({
   duration: string;
   imgSrc: string;
 }) => (
-  <div className="relative">
-    <Image
-      alt={city}
-      height={50}
-      width={220}
-      className="rounded-md object-cover w-full"
-      src={imgSrc}
-      priority
-    />
-    <p className="flex justify-between items-center my-2 font-semibold">
-      <span>{city}</span>
-      <span>{price}</span>
-    </p>
-    <div className="text-gray-500 text-sm">
-      <p>{dateRange}</p>
-      <p>{duration}</p>
+  <div className="grid grid-cols-2 gap-3 md:block">
+    <div className="relative">
+      <Image
+        alt={city}
+        height={50}
+        width={220}
+        className="rounded-md object-cover w-full"
+        src={imgSrc}
+        priority
+      />
+    </div>
+    <div className="w-full">
+      <p className="flex justify-between items-center my-2 font-semibold text-sm md:text-base">
+        <span>{city}</span>
+        <span>{price}</span>
+      </p>
+      <div className="text-gray-500 text-sm">
+        <p>{dateRange}</p>
+        <p>{duration}</p>
+      </div>
     </div>
   </div>
 );
