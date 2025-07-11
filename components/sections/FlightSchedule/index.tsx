@@ -1,3 +1,5 @@
+"use client";
+
 import FlightDatePicker from "@/components/molecules/DateRangePicker";
 import {
   Select,
@@ -9,8 +11,43 @@ import {
 } from "@/components/ui/select";
 import { SelectIcon } from "@radix-ui/react-select";
 import { CircleDot, LucideArrowRightLeft, MapPin } from "lucide-react";
+// import { useQuery } from "@tanstack/react-query";
+// import FlightService from "@/services/flights.service";
+// import { useEffect, useState } from "react";
+
+// const DEFAULT_LOCATION = {
+//   lat: 27.7168,
+//   lng: 85.3164,
+// };
 
 const FlightSchedule = () => {
+  // const [location, setLocation] = useState(DEFAULT_LOCATION);
+
+  // const { data } = useQuery({
+  //   queryKey: ["nearbyAirports", location],
+  //   queryFn: () => FlightService.getAirports(location),
+  //   enabled: !!location,
+  // });
+
+  // useEffect(() => {
+  //   if (navigator.geolocation) {
+  //     navigator.geolocation.getCurrentPosition(
+  //       (position) => {
+  //         setLocation({
+  //           lat: position.coords.latitude,
+  //           lng: position.coords.longitude,
+  //         });
+  //       },
+  //       (error) => {
+  //         console.warn(
+  //           "Geolocation failed or denied. Using default location.",
+  //           error
+  //         );
+  //       }
+  //     );
+  //   }
+  // }, []);
+
   return (
     <div className="mt-5 grid grid-cols-5 gap-5">
       <div className="flex items-center gap-2 col-span-5 md:col-span-3 relative ">
