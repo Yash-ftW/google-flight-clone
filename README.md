@@ -18,7 +18,7 @@ This is a responsive flight search UI inspired by [Google Flights](https://www.g
 
 - 📱 **Responsive Design** – Mobile-first and desktop-friendly layout
 - 🔍 **Flight Search Form** – Inputs for origin, destination, and travel date
-- 💡 **Component-Based Structure** – Clean, reusable components (`FlightSearch`, `FlightCard`, etc.)
+- 💡 **Component-Based Structure** – Clean, reusable components
 - ⚙️ **API-Ready** – Axios instance set up with RapidAPI headers, ready for integration
 - 🧱 **Scalable Codebase** – Easy to extend with filters, results, or state management
 
