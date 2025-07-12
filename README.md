@@ -38,6 +38,7 @@ However, due to the **free plan’s 20-request/month limit**, the API quota was 
 ---
 
 ## 🗂️ Folder Structure Overview
+<pre>
 app/
 ├── page.tsx # Main app page
 components/
@@ -48,7 +49,7 @@ lib/
 ├── axios.ts # Axios instance with RapidAPI setup
 public/
 ├── assets/ # Placeholder assets (if any)
-
+</pre>
 ---
 
 ## 🚀 Getting Started
