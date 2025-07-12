@@ -2,7 +2,6 @@
 
 This is a responsive flight search UI inspired by [Google Flights](https://www.google.com/flights), built using **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
-> ✅ Submitted as part of the Spotter Frontend Developer assessment.
 
 ---
 
